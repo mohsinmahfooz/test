@@ -1,0 +1,57 @@
+        .custom-card2 {
+            background: #ffffff;
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 43, 102, 0.03);
+            padding: 2.5rem;
+            height: 100%;
+        }
+		
+		.section-tag {
+            color: var(--accent-orange);
+            font-weight: 600;
+            font-size:1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section-tag::before {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 4px;
+            background-color: var(--accent-orange);
+        }
+		/* Image Grid layouts */
+        .img-cover {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 14px;
+        }
+        .hero-badge-img {
+            position: relative;
+        }
+        .hero-badge-text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+        }
+		/* Mission / Vision Cards */
+        .mv-card {
+            background: #ffffff;
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.02);
+            padding: 1.75rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1.25rem;
+        }
+		/* Utilities */
+        .gap-30 { gap: 30px; }
+		
+		
